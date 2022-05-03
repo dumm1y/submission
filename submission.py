@@ -23,10 +23,10 @@ ship_states = {}
 def agent(obs, config):
     size = config.size
     board = Board(obs, config)
-    me = board.current_player
+    me = board.current_playe
 
     # If there are no ships, use first shipyard to spawn a ship.
-    if len(me.ships) == 0 and len(me.shipyards) > 1:
+    if len(me.ships) == 0 and len(me.shipyards) > 0:
         me.shipyards[0].next_action = ShipyardAction.SPAWN
 
     # If there are no shipyards, convert first ship into shipyard.
