@@ -2,7 +2,7 @@
 
 Vorlage eines einfachen Bots zum Start der Halite-Challenge. Diese submission wird als Beginnerbot auf der
 kaggle Website angegeben. Bitte fügen Sie diesem Repository bei der Bearbeitung keine weiteren Dateien hinzu und verpacken Sie ihren gesamten 
-Code in der submission.py.
+Code in der ```submission.py```.
 
 
 
